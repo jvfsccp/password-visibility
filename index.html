@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Visibility</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <img src="imagens/bg.png" alt="">
+    </div>
+    <div class="signup">
+        <h2>Entrar</h2>
+        <h3>Bem vindo de volta!</h3>
+        <form class="form">
+            <div class="textbox password">
+                <input id="passwordInput" type="password" required>
+                <label>Senha</label>
+                <span class="material-symbols-outlined">lock</span>
+                <button type="button" id="passwordButton">
+                    <span id="passwordIcon" class="material-symbols-outlined">Visibility</span>
+                </button>
+            </div>
+            <button type="submit">
+                Entrar
+                <span class="material-symbols-outlined">arrow_forward</span>
+            </button>
+        </form>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
